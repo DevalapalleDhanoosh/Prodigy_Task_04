@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="dark-mode-toggle">Toggle Dark Mode</button></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <h1>Devalapalle Dhanoosh Reddy</h1>
+        <img id="profile-picture" src="Screenshot 2025-02-12 104439.png" alt="Profile Picture">
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Aspiring Data Scientist and Software Developer with skills in Python, Java, and MySQL.
+            Passionate about data analysis, machine learning, and software development.
+            Experienced in building web applications, simulations, and examination systems.
+            Looking for opportunities to apply my skills in a challenging environment.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>JAVA</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Property Dealing Website</h3>
+            <div class="project-content">
+                <p>This is a fully responsive Property Dealing Website built using HTML, CSS, and JavaScript, designed for users to buy, sell, and rent properties seamlessly. The website allows users to filter properties based on location, type, and budget, providing an intuitive and user-friendly interface for property browsing.</p>
+            </div>
+            <p>Key Features:</p>
+            <ul>
+                <li>Browse and list properties for sale, rent, or purchase.</li>
+                <li>Filter properties based on location, type, and price range.</li>
+                <li>Modern and responsive UI/UX design.</li>
+                <li>Interactive and dynamic elements using JavaScript.</li>
+                <li>Real-time updates on property listings.</li>
+                <li>User authentication for secure access.</li>
+            </ul>
+            <a href="https://github.com/DevalapalleDhanoosh/Property-website">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Grocery Store Simulation</h3>
+            <div class="project-content">
+                <p>This Java-based Grocery Store Simulation models a real-world grocery shopping experience with an automated customer and inventory management system. The project simulates customers with random shopping lists and budgets, allowing them to purchase items based on availability and budget constraints.</p>
+            </div>
+            <p>Key Features:</p>
+            <ul>
+                <li>Automated Customer Generation – Customers are created dynamically with random shopping lists and budgets.</li>
+                <li>Inventory Management – Tracks stock levels, updates inventory, and prevents out-of-stock purchases.</li>
+                <li>Queue System for Checkout – Simulates multiple customers processing through a queue-based checkout.</li>
+                <li>Object-Oriented Design – Implements OOP principles for better modularity and maintainability.</li>
+                <li>Console-Based Interface – The simulation runs in the terminal, displaying real-time updates on store operations.</li>
+            </ul>
+            <a href="https://github.com/DevalapalleDhanoosh/Grocery_Store_Simulation">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Online Examination System</h3>
+            <div class="project-content">
+                <p>This Java-based Online Examination System is designed to facilitate secure and efficient online tests for students. Built using Java, AWT, and Swing, the system provides an interactive graphical user interface (GUI) for both students and administrators.</p>
+            </div>
+            <p>Key Features:</p>
+            <ul>
+                <li>User Authentication – Secure login system for students and admins.</li>
+                <li>Admin Dashboard – Allows admins to create, manage, and update quizzes and questions.</li>
+                <li>Student Examination Module – Students can attempt quizzes, submit answers, and receive instant results.</li>
+                <li>Result Evaluation – Automatic grading system to evaluate quiz performance.</li>
+                <li>File Handling for User Data – Stores user credentials securely using file management techniques.</li>
+                <li>Graphical UI with Java Swing – Provides an interactive and user-friendly interface.</li>
+            </ul>
+            <a href="https://github.com/DevalapalleDhanoosh/Online_Examination_System">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Exploratory Data Analysis of Brazilian E-Commerce Public Data</h3>
+            <div class="project-content">
+                <p>This project focuses on Exploratory Data Analysis (EDA) of the Brazilian E-Commerce Public Dataset by Olist to uncover customer purchasing patterns, sales trends, and business insights. The analysis is performed using Python, Pandas, Matplotlib, and Seaborn, with a structured approach to data cleaning, manipulation, and visualization.</p>
+            </div>
+            <p>Key Features:</p>
+            <ul>
+                <li>Data Cleaning & Preprocessing – Handles missing values, duplicates, and data inconsistencies.</li>
+                <li>Statistical Analysis – Examines numerical and categorical features to identify key trends.</li>
+                <li>Customer Behavior Analysis – Analyzes purchase frequency, payment methods, and order trends.</li>
+                <li>Sales & Product Insights – Identifies top-selling products, revenue distribution, and seller performance.</li>
+                <li>Data Visualization – Uses histograms, scatter plots, heatmaps, and time-series graphs to represent insights.</li>
+                <li>Multi-Dataset Merging – Integrates multiple datasets for a comprehensive analysis.</li>
+            </ul>
+            <a href="https://github.com/DevalapalleDhanoosh/Exploratory_Data_Analysis_Of_Brazillian_E-commerce_Public_Data">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/dhanoosh-reddy/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/DevalapalleDhanoosh">GitHub</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
